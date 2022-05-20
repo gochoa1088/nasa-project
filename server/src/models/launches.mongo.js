@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const launchesSchema = new mongoose.Schema({
+const launchSchema = new mongoose.Schema({
   flightNumber: {
     type: Number,
     required: true,
